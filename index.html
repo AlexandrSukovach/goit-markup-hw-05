@@ -19,7 +19,9 @@
 </head>
 
 <body class="page">
+
    <!-- HEADER-studio-sitenav -->
+
    <header class="page-header">
       <div class="page-header-comtent container">
          <nav class="logo-nav-content">
@@ -49,7 +51,9 @@
          <div class="hero-content container">
             <h1 class="hero-title">Эффективные решения<br>
                для вашего бизнеса</h1>
-            <button type="button" class="btn-service" data-modal-open>Заказать услугу</button>
+            <button class="btn-service" data-modal-open>
+               Заказать услугу
+            </button>
          </div>
       </section>
 
@@ -59,7 +63,7 @@
          <div class="declaration-text container">
             <ul class="declaration-list list">
                <li class="list-item">
-                  <div class="declar">
+                  <div class="declaration-item">
                      <svg width="70" height="70">
                         <use href="./images/icons.svg#icon-antenna"></use>
                      </svg>
@@ -68,7 +72,7 @@
                   <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                </li>
                <li class="list-item">
-                  <div class="declar">
+                  <div class="declaration-item">
                      <svg width="70" height="70">
                         <use href="./images/icons.svg#icon-clock"></use>
                      </svg>
@@ -77,7 +81,7 @@
                   <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                </li>
                <li class="list-item">
-                  <div class="declar">
+                  <div class="declaration-item">
                      <svg width="70" height="70">
                         <use href="./images/icons.svg#icon-diagram"></use>
                      </svg>
@@ -86,7 +90,7 @@
                   <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                </li>
                <li class="list-item">
-                  <div class="declar">
+                  <div class="declaration-item">
                      <svg width="70" height="70">
                         <use href="./images/icons.svg#icon-astronaut"></use>
                      </svg>
@@ -304,9 +308,20 @@
          </div>
       </section>
 
+      <!------- modall -------->
+
+      <div class="backdrop is-hidden" data-modal>
+         <div class="modal-wind">
+            <button type="button" class="btn-close-service" data-modal-close>
+               <svg width="11" height="11">
+                  <use href="./images/icons.svg#icon-Vector-close"></use>
+               </svg>
+            </button>
+         </div>
+      </div>
    </main>
 
-   <!-- footer -->
+   <!------ footer----- -->
 
    <footer>
       <div class="fotor-content container">
@@ -349,6 +364,7 @@
          </div>
       </div>
    </footer>
+   <script src="./js/modal.js"></script>
 </body>
 
 

@@ -695,7 +695,7 @@ footer {
 
 .fotor-content {
    display: flex;
-   align-items: flex-start;
+   align-items: baseline;
    padding-top: 60px;
    padding-left: 15px;
    padding-bottom: 60px;

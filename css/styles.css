@@ -186,19 +186,22 @@ img {
 }
 
 /* --------------hero------------- */
-
 .hero {
+   background-color: var(--section-background);
+}
+
+.hero-total {
    max-width: 1600px;
    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url("../images/hero-one.jpg");
-   background-color: var(--section-background);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
    text-align: center;
    padding-top: 200px;
    padding-bottom: 200px;
-
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .hero-title {
@@ -526,7 +529,7 @@ button {
 
 .flex-elements a {
    display: block;
-   transition: box-shadow 350ms cubic-bezier(0.4, 0, 0.2, 1);
+   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .flex-elements a:hover,
@@ -579,7 +582,7 @@ button {
    padding-bottom: 63px;
    position: absolute;
    transform: translateY(0);
-   transition: transform 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 

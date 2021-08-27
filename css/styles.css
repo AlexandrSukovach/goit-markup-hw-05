@@ -114,6 +114,10 @@ img {
 }
 
 /* -----адаптив-Sitenav----- */
+.site-nav .click.current {
+   color: var(--logo-color);
+}
+
 .site-nav .click.current::after {
    display: block;
    content: '';
